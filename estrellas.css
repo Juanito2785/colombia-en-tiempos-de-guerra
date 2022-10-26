@@ -1,0 +1,155 @@
+.stars{
+    text-align: center;
+  }
+  
+  .stars input{
+    display: none;
+  }
+  
+  .stars label{
+    float: right;
+    font-size: 30px;
+    color: lightgrey;
+    margin: 0 2px;
+    text-shadow: 1px 1px #bbb;
+  }
+  
+  .stars label:before{
+    content: '★';
+  }
+  
+  .stars input:checked ~ label{
+    color:gold;
+    text-shadow: 1px 1px #c60;
+  }
+  
+  .stars:not(:checked) > label:hover,
+  .stars:not(:checked) > label:hover ~ label{
+    color:gold;
+  }
+  
+  .stars input:checked > label:hover,
+  .stars input:checked > label:hover ~ label{
+    color: gold;
+    text-shadow: 1px 1px goldenrod;
+  }
+  
+  .stars .results:before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 38px;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    color:gold;
+    display: none;
+    
+  }
+  
+  .stars input:checked ~ .results:before{
+    display: block;
+  }
+  
+  .stars #five:checked ~ .results:before{
+    content: 'Que bien, gracias😍';
+  }
+  
+  .stars #four:checked ~ .results:before{
+    content: 'Eso me gusta😎';
+  }
+  
+  .stars #three:checked ~ .results:before{
+    content: 'Podría mejorar😄';
+  }
+  
+  .stars #two:checked ~ .results:before{
+    content: 'Eso no me gusta😒';
+  }
+  
+  .stars #one:checked ~ .results:before{
+    content: 'Ayudame a mejorar😠';
+  }
+  .stars #six:checked ~ .results:before{
+    content: 'Ayudame a mejorar😠';
+  }
+
+
+
+  .stars_Caren{
+    text-align: center;
+  }
+  
+  .stars_Caren input{
+    display: none;
+  }
+  
+  .stars_Caren label{
+    float: right;
+    font-size: 30px;
+    color: lightgrey;
+    margin: 0 2px;
+    text-shadow: 1px 1px #bbb;
+  }
+  
+  .stars_Caren label:before{
+    content: '★';
+  }
+  
+  .stars_Caren input:checked ~ label{
+    color:gold;
+    text-shadow: 1px 1px #c60;
+  }
+  
+  .stars_Caren:not(:checked) > label:hover,
+  .stars_Caren:not(:checked) > label:hover ~ label{
+    color:gold;
+  }
+  
+  .stars_Caren input:checked > label:hover,
+  .stars_Caren input:checked > label:hover ~ label{
+    color: gold;
+    text-shadow: 1px 1px goldenrod;
+  }
+  
+  .stars_Caren .result_Caren:before{
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 38px;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    color:gold;
+    display: none;
+    
+  }
+  
+  .stars_Caren input:checked ~ .result_Caren:before{
+    display: block;
+  }
+  
+  .stars_Caren #five_Caren:checked ~ .result_Caren:before{
+    content: 'Que bien, gracias😍';
+  }
+  
+  .stars_Caren #four_Caren:checked ~ .result_Caren:before{
+    content: 'Eso me gusta😎';
+  }
+  
+  .stars_Caren #three_Caren:checked ~ .result_Caren:before{
+    content: 'Podría mejorar😄';
+  }
+  
+  .stars_Caren #two_Caren:checked ~ .result_Caren:before{
+    content: 'Eso no me gusta😒';
+  }
+  
+  .stars_Caren #one_Caren:checked ~ .result_Caren:before{
+    content: 'Ayudame a mejorar😠';
+  }
+  .stars_Caren #six_Caren:checked ~ .result_Caren:before{
+    content: 'Ayudame a mejorar😠';
+  }

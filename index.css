@@ -1,0 +1,57 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #2E8B57 ;
+    background-image: radial-gradient( #777777 0.5px, transparent 1px), radial-gradient(#e5e5f7 1px, #5cc089 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+  }
+  
+  #encabezado {
+    width: 45vw;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .opcion {
+    text-align: center;
+    width: 45vw;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .opcion:hover{
+       background: lightgray;
+  }
+  
+  .casita i{
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 570px;
+    font-size: 38px;
+    cursor:pointer;
+  }
+  .casita a{
+    text-decoration: none;
+  }
+  
